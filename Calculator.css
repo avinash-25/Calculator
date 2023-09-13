@@ -1,0 +1,77 @@
+/* src/Calculator.css */
+.calculator {
+    margin-left: 330px; 
+    width: 400px; /* Reduced width */
+    /* margin: 0 auto; To center horizontally */
+    padding: 50px;
+    background-color: #e2cbcb;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(218, 19, 19, 0.2);
+  }
+  
+  .display {
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: right;
+    background-color: #d09f9f;
+    border: 1px solid #32bc4e;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .buttons {
+    margin-right: 160px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px; /* Reduced gap */
+  }
+  
+  .row {
+    margin-right: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .heading{
+    color: #f44336;
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    display:block;
+    font-weight:Bold;
+
+  }
+  
+  button {
+    width: 100%;
+    padding: 20px; /* Adjust padding for square buttons */
+    height: 50px; /* Add height to make them square */
+    font-size: 24px;
+    background-color: #4caf50;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    outline: none;
+  }
+  
+  button:hover {
+    /* margin-left: 20px; */
+    background-color: #45a049;
+    transform: scale(1.1);
+    border: 1px solid #357a38;
+  }
+  
+  /* Style clear button differently */
+  button.clear {
+    background-color: #f44336;
+  }
+  
+  button.clear:hover {
+    background-color: #d32f2f;
+  }
+  
